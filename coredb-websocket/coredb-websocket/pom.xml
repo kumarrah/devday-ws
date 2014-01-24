@@ -25,7 +25,7 @@
 	</dependencies>
 	<modules>
 		<module>coredb-websocket-ws</module>
-
 		<module>coredb-websocket-liquibase</module>
+		<module>coredb-websocket-client</module>
 	</modules>
 </project>
