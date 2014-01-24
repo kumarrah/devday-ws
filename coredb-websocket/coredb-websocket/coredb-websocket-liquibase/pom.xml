@@ -22,4 +22,29 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<build>
+		<plugin>
+			<groupId>org.liquibase</groupId>
+			<artifactId>liquibase-maven-plugin</artifactId>
+			<version>3.0.6</version>
+			<configuration>
+				<propertyFileWillOverride>true</propertyFileWillOverride>
+				<logging>info</logging>
+				<verbose>true</verbose>
+			</configuration>
+			<executions>
+				<execution>
+					<id>liquibase</id>
+					<phase>install</phase>
+					<configuration>
+						<propertyFile>${basedir}/target/classes/liquibase.properties</propertyFile>
+						<changeLogFile>${basedir}/target/classes/install.xml</changeLogFile>
+					</configuration>
+					<goals>
+						<goal>update</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
+	</build>
 </project>
