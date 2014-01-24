@@ -27,5 +27,6 @@
 		<module>coredb-websocket-ws</module>
 		<module>coredb-websocket-liquibase</module>
 		<module>coredb-websocket-client</module>
+		<module>coredb-websocket-common</module>
 	</modules>
 </project>
