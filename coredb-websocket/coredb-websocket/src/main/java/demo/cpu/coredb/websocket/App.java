@@ -1,4 +1,4 @@
-package org.coredb.websocket.liquibase;
+package demo.cpu.coredb.websocket;
 
 /**
  * Hello world!

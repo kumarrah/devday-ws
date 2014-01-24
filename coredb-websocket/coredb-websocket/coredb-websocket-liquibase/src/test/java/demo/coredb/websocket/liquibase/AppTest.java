@@ -1,4 +1,4 @@
-package com.tomtom.cpu.coredb.websocket;
+package demo.coredb.websocket.liquibase;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

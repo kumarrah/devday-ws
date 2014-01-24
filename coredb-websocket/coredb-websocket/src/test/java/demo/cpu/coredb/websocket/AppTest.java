@@ -1,4 +1,4 @@
-package org.coredb.websocket.liquibase;
+package demo.cpu.coredb.websocket;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

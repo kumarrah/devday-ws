@@ -1,4 +1,4 @@
-package com.tomtom.cpu.coredb.websocket;
+package demo.websocket.liquibase;
 
 /**
  * Hello world!
